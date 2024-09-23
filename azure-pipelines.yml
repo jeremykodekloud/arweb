@@ -9,13 +9,8 @@ trigger:
 pool:
   vmImage: windows-latest
   name: "Default"
-  permissions:
-      contents: write
-      pull-requests: write
-      repository-projects: write
 
 steps:
-
 - task: RunWorkflow@2
   inputs:
     gh: 'jeremykodekloud'
