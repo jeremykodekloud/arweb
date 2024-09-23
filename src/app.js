@@ -15,6 +15,8 @@ app.get('/', (req, res) => {
   res.send('Hello, Azure Pipelines and GitHub Actions!');
 });
 
+// This is a test! 
+
 if (require.main === module) {
   app.listen(port, () => {
     console.log(`Server running on port ${port}`);
