@@ -8,7 +8,12 @@ trigger:
 
 pool:
   vmImage: windows-latest
+  permissions:
+      contents: write
+      pull-requests: write
+      repository-projects: write
   name: "Default"
+
 
 steps:
 
