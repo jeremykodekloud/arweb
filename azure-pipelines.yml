@@ -8,12 +8,11 @@ trigger:
 
 pool:
   vmImage: windows-latest
+  name: "Default"
   permissions:
       contents: write
       pull-requests: write
       repository-projects: write
-  name: "Default"
-
 
 steps:
 
@@ -23,3 +22,4 @@ steps:
     repo: 'jeremykodekloud/arweb'
     workflow: 'testandbuild'
     ref: 'main'
+  
