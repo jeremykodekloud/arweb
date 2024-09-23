@@ -1,4 +1,5 @@
 name: testandbuild
+permissions: write-all
 on:
   workflow_dispatch:
     inputs:
