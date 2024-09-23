@@ -7,8 +7,6 @@ on:
         description: 'Log level'
         required: true
         default: 'warning'
-env:
-  GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 jobs:
   build:
     runs-on: windows-latest
