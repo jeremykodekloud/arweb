@@ -20,12 +20,5 @@ steps:
     ref: 'main'
 
 
-- task: RunWorkflow@2
-  inputs:
-    gh: 'jeremykodekloud'
-    repo: 'jeremykodekloud/arweb'
-    workflow: 'Node.js Package'
-    ref: 'main'
-
     
   
