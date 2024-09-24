@@ -9,8 +9,7 @@ trigger:
 pool:
   vmImage: windows-latest
   name: "Default"
-  environment: Build Environment
-
+  
 steps:
 - task: RunWorkflow@2
   inputs:
@@ -18,7 +17,7 @@ steps:
     repo: 'jeremykodekloud/arweb'
     workflow: 'testandbuild'
     ref: 'main'
-
+    githubConnection: 'jeremykodekloud'
 
     
   
