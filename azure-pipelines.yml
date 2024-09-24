@@ -17,6 +17,6 @@ steps:
     repo: 'jeremykodekloud/arweb'
     workflow: 'testandbuild'
     ref: 'main'
-    githubToken: $(GITHUB_PAT)
+
     
   
